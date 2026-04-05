@@ -200,7 +200,7 @@ const App: React.FC = () => {
               <Hotel size={24} />
             </div>
             <div>
-              <h1 className="text-xl font-bold tracking-tight text-slate-800 leading-tight">Hotel Quotation Pro</h1>
+              <h1 className="text-xl font-bold tracking-tight text-slate-800 leading-tight">D'Lioro Hotel & Resort</h1>
               <p className="text-slate-50 text-[10px] bg-blue-600/10 px-1.5 py-0.5 rounded text-blue-600 inline-block">Hệ thống báo giá chuyên nghiệp</p>
             </div>
           </div>
@@ -428,7 +428,7 @@ const App: React.FC = () => {
                         <p className="text-slate-400 text-[10px]">Mã số: QT-{new Date().getTime().toString().slice(-6)}</p>
                       </div>
                       <div className="text-right">
-                        <p className="font-bold text-sm">HOTEL QUOTATION PRO</p>
+                        <p className="font-bold text-sm">D'LIORO HOTEL & RESORT</p>
                         <p className="text-slate-400 text-[10px]">Ngày tạo: {new Date().toLocaleDateString('vi-VN')}</p>
                       </div>
                     </div>
