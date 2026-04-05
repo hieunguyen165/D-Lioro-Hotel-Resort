@@ -22,3 +22,10 @@ export default defineConfig(({mode}) => {
     },
   };
 });
+export default defineConfig(({mode}) => {
+  return {
+    base: '/tên-repo-của-bạn/', // Thêm dòng này (ví dụ: '/hotel-quotation-pro/')
+    plugins: [react(), tailwindcss()],
+    // ... các code khác giữ nguyên
+  }
+})
